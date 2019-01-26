@@ -7,7 +7,7 @@ class TodoForm extends React.Component {
 		this.state = {
 			todoText: ''
 		}
-	 	this.handleKeyUp = this.handleKeyUp.bind(this);
+	 	
 	}
 
 	onChangeHandle(event) {

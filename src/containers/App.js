@@ -48,12 +48,13 @@ class App extends React.Component {
 					todosNumber={this.state.data.length}
 				/>
 				<TodoForm 
+				//Pytanie
 					addTodo={event => this.addTodo(event)}
 				/>
 				<ul>
 					<ToDoList			
 						data={this.state.data}
-						removeTodo={id =>this.removeTodo(id)}
+						removeTodo={id => this.removeTodo(id)}
 					/>
 				</ul>
 			</div>
